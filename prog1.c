@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
 void receiver()
 {
-	int i,framelen,lpvar;
+	int i=0,framelen,lpvar;
 	char leninchar;
 	while(frames[i]!='\0')
 	{
