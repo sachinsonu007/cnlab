@@ -48,7 +48,7 @@ void main()
 		printf("Erroneous data is %s\n",t);
 	}
 	crc();
-	for(e=0;((e<n-1)&&(cs[e]!='1'));e++)
+	for(e=0;((e<n-1)&&(cs[e]!='1'));e++);
 	{
 		if(e<n-1)
 			printf("Error detected\n");
